@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- BARRA DE NAVEGACION -->
+     <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="https://www.sise.edu.pe/" target="_blank">Portal</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- BARRA DE NAVEGACION -->
+     
+     <!-- HEADER -->
+     <header>
+        <div class="container">
+            <h1 id="inicio">PAGINA DE CONTACTO</h1>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+     <!-- MAIN -->
+     <main>
+        <div class="container">
+            <h1 class="titulo_principal">CONTACTO</h1>
+        <div class="contacto-grid">
+         <form action="">
+            <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Imgresas tu nombre..." required autofocus>
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" placeholder="Imgresas tus Apellidos..."><br><br>
+                <fieldset>
+                    <legend>Login</legend>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" placeholder="Contraseña..." required>
+                    <label for="confirmacion">Confirmar Constraseña:</label>
+                    <input type="password" id="confirmacion" placeholder="Confirmar Contraseña..." required><br><br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" placeholder="Imgresas tu Correo...">
+            </fieldset><br>
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" value="+51"><br><br>
+            <label for="nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="nacimiento"><br><br>
+            
+            <!-- CASILLA DE VERIFICACIÓN -->
+             <label for="Carrera">Carrera:</label><br>
+             <input type="checkbox" id="derecho">
+             <label for="derecho">Derecho</label><br>
+             <input type="checkbox" id="medicina">             
+             <label for="medicina">Medicina</label><br>
+             <input type="checkbox" id="ingenieria">
+             <label for="ingenieria">Ingeniería</label><br>
+             <input type="checkbox" id="nutricion">
+             <label for="nutricion">Nutrición</label><br><br>
+                 
+            <!-- GÉNERO -->
+            <label for="Género:">Género:</label><br> 
+            <input type="radio" id="masculino" name="genero">
+            <label for="masculino">Masculino</label> 
+            <input type="radio" id="femenino" name="genero">
+            <label for="femenino">Femenino</label> <br><br>
+
+            <!-- LISTA DESPLEGABLE -->
+            <fieldset>
+                <legend> Comandos </legend><br>
+                <label for="profesion">Profesión:</label> 
+                <select>
+                    <option value="Administracion">Administración</option>
+                    <option value="Contabilidad">Contabilidad</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Medicina">Medicina</option>
+                </select><br><br>
+
+                <label for="archivo">Archivo:</label>
+                <input type="file"><br><br>
+
+                <label for="color">Color:</label>
+                <input type="color">
+            </fieldset><br>
+
+            <label for="mensaje">Mensaje</label> <br>
+            <textarea id="mensaje" rows="10" cols="40"></textarea><br><br>
+
+            <!-- BOTONES -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.5047816181323!2d-76.99038182552931!3d-12.145998343755059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b814b3d5464d%3A0xfa5b81ad056d16a6!2sInstituto%20SISE%20-%20Santiago%20de%20Surco!5e0!3m2!1ses!2spe!4v1718643724220!5m2!1ses!2spe" width="100%" height="800px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+        </div>
+    </div> 
+    </main>
+     <!-- MAIN -->
+      
+     <footer>
+        <div class="container">
+            <p>Terminos y condiciones</p><br>
+            <p>Políticas de privacidad</p><br>
+            <p>Libro de reclamaciones</p><br>
+            <p>Portal de transparencia</p><br>
+            <p>Copyright © 2024 - Instituto Superior SISE</p><br>
+        </div>
+    </footer>
+</body>
+</html>

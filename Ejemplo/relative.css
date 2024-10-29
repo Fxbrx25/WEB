@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 50px;
+    background-color: aqua;
+}
+
+header{
+    height: 50px;
+    background-color:brown;
+}
+
+main{
+    height: 800px;
+    background-color: beige;
+}
+
+.hijo_01{
+    background-color: #040b49;
+    height: 200px;
+    width: 200px;
+    color: white;
+    display: inline-block;
+}
+
+.hijo_02{
+    background-color: #101e9c;
+    height: 200px;    
+    width: 200px;
+    color: white;
+    position: relative;
+    
+}
+
+.hijo_03{
+    background-color: #4e5bcf;
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    height: 50px;
+    background-color: blue;
+}
